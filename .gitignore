@@ -80,7 +80,8 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-dist
+# In assinment Details I was told to remove the dist
+# dist
 
 # Gatsby files
 .cache/
