@@ -6,9 +6,10 @@ const engineerPrompts = require('./ProfilePrompts/Engineer.js')
 const internPrompts = require('./ProfilePrompts/Intern.js')
 
 function init() {
-    inquirer.prompt(managerPrompts).then(answer => {
+    console.log(JSON.stringify(managerPrompts));
+    inquirer.prompt(managerPrompts).then((answers) => {
 
-        console.log(answer)
+        console.log(answers)
 
 
     })

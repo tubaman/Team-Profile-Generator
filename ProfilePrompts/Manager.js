@@ -18,4 +18,4 @@ const managerPrompts = [
     }
 ]
 
-exports.Manager = managerPrompts
+module.exports = managerPrompts
